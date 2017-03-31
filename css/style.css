@@ -8,7 +8,7 @@ p {
   line-height: 1.4rem; }
 
 li {
-  line-height: 1.7rem; }
+  line-height: 1.65rem; }
 
 section:first-of-type {
   border-top: 1px solid #888; }
@@ -31,7 +31,17 @@ span.tag {
   font-size: .9rem;
   border-radius: 4px;
   padding: 2px 5px;
-  margin: 0 3px; }
+  margin: 0 3px;
+  opacity: .8;
+  cursor: default;
+  transition: opacity .15s; }
+  span.tag:hover {
+    opacity: 1; }
+
+p.date {
+  float: right;
+  color: #888;
+  opacity: .8; }
 
 hr {
   border: none;

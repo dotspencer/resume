@@ -11,7 +11,7 @@ p{
   line-height: 1.4rem;
 }
 li{
-  line-height: 1.7rem;
+  line-height: 1.65rem;
 }
 
 $border: 1px solid $gray;
@@ -45,6 +45,17 @@ span.tag {
   border-radius: 4px;
   padding: 2px 5px;
   margin: 0 3px;
+  opacity: .8;
+  cursor: default;
+  transition: opacity .15s;
+  &:hover{
+    opacity: 1;
+  }
+}
+p.date{
+  float: right;
+  color: $gray;
+  opacity: .8;
 }
 hr {
   border: none;
