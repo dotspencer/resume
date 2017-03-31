@@ -64,7 +64,7 @@ span.tag {
   border-radius: 4px;
   padding: 2px 5px;
   margin: 0 3px;
-  opacity: .8;
+  // opacity: .8;
   cursor: default;
   transition: opacity .15s;
   &:hover{
@@ -74,7 +74,7 @@ span.tag {
 p.date{
   float: right;
   color: $gray;
-  opacity: .8;
+  // opacity: .8;
 }
 hr {
   border: none;
