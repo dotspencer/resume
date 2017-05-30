@@ -29,6 +29,9 @@ li {
 section:first-of-type {
   border-top: 1px solid #888; }
 
+section:last-of-type {
+  border-bottom: none; }
+
 section {
   border-bottom: 1px solid #888;
   display: inline-block;

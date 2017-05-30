@@ -41,6 +41,9 @@ $border: 1px solid $gray;
 section:first-of-type{
   border-top: $border;
 }
+section:last-of-type{
+  border-bottom: none;
+}
 section{
   border-bottom: $border;
   display: inline-block;
