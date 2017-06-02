@@ -3,6 +3,7 @@
     "name": "Spencer Smith",
     "address": "Salt Lake City, Utah"
   },
+  "gpa": "3.57",
   "courses": [
     {
       "id": "CS 1410",
@@ -33,6 +34,40 @@
       "id": "CS 5530",
       "title": "Database Systems",
       "tags": ["MySQL", "Java", "JSP"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Development Intern",
+      "company": "The Church of Jesus Christ of Latter-day Saints",
+      "start": "May 2017",
+      "end": "Present",
+      "description": "Developed and maintained software used within temples of the Church.",
+      "tags": ["AngularJS", "Java", "JSP", "Spring MVC"]
+    },
+    {
+      "title": "Web Developer",
+      "company": "Energy &amp; Geoscience Institute",
+      "start": "Mar 2015",
+      "end": "Feb 2017",
+      "description": "Developed a PDF and webpage and parsing tool to locate and correct inconsistent research project data.",
+      "tags": ["JavaScript", "HTML/CSS", "PHP", "Ruby"]
+    },
+    {
+      "title": "SEO Specialist",
+      "company": "Carr Printing Co.",
+      "start": "Aug 2012",
+      "end": "Mar 2013",
+      "description": "Helped design and implement a mobile-friendly version of the website.",
+      "tags": ["HTML/CSS", "JavaScript"]
+    },
+    {
+      "title": "Web Designer",
+      "company": "Horizon Publishers",
+      "start": "Sep 2011",
+      "end": "Aug 2012",
+      "description": "Maintained an e-commerce website. Improved website layout and design.",
+      "tags": ["HTML", "WordPress", "Dreamweaver"]
     }
   ]
 }
