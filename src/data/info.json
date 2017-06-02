@@ -69,5 +69,25 @@
       "description": "Maintained an e-commerce website. Improved website layout and design.",
       "tags": ["HTML", "WordPress", "Dreamweaver"]
     }
+  ],
+  "projects": [
+    {
+      "name": "Effortless Reviews",
+      "url": "https://effortlessreviews.com",
+      "description": "Web app to help businesses follow up with customers via SMS to increase their reviews online.",
+      "tags": ["React.js", "Node.js", "Express", "MySQL", "NGINX", "Webpack"]
+    },
+    {
+      "name": "Custom FFmpeg Codec",
+      "url": "Project for CS 3505",
+      "description": "Pair programming project to create our own FFmpeg image codec. In the final stage of the project, we used our codec to generate an animation of a bouncing ball.",
+      "tags": ["C++", "FFmpeg"]
+    },
+    {
+      "name": "Taken Taken",
+      "url": "https://takentaken.com",
+      "description": "Simple domain name availability lookup tool.",
+      "tags": ["Node.js", "JavaScript", "HTML", "Sass"]
+    }
   ]
 }
