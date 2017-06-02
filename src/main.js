@@ -4,16 +4,13 @@ import ReactDOM from 'react-dom';
 import styles from './common.scss';
 import Header from './components/header';
 
-class App extends React.Component {
-  componentDidMount(){
-    var info = require(__dirname + '/data/info.json');
-    console.log(info);
-  }
+var info = require('./data/info.json');
 
+class App extends React.Component {
   render(){
     return (
       <div>
-        <Header name={5 + 5}/>
+        <Header info={info}/>
       </div>
     );
   }
