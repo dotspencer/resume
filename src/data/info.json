@@ -12,7 +12,7 @@
     },
     {
       "id": "CS 2420",
-      "title": "Intro Algorithms &amp; Data Structures",
+      "title": "Intro Algorithms & Data Structures",
       "tags": ["Java"]
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "CS 3810",
       "title": "Computer Organization",
-      "tags": [""]
+      "tags": []
     },
     {
       "id": "CS 5530",
@@ -47,7 +47,7 @@
     },
     {
       "title": "Web Developer",
-      "company": "Energy &amp; Geoscience Institute",
+      "company": "Energy & Geoscience Institute",
       "start": "Mar 2015",
       "end": "Feb 2017",
       "description": "Developed a PDF and webpage and parsing tool to locate and correct inconsistent research project data.",

@@ -1,3 +1,13 @@
 body {
   font-family: sans-serif;
 }
+.tags {
+  overflow: hidden;
+}
+.tag {
+  float: left;
+  background-color: lightgray;
+  padding: 3px 6px;
+  font-size: .8rem;
+  margin: 0 2px; 
+}

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import styles from './common.scss';
 import Header from './components/header';
+import Courses from './components/courses';
 
 var info = require('./data/info.json');
 
@@ -10,7 +11,8 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <Header info={info}/>
+        <Header general={info.general}/>
+        <Courses courses={info.courses}/>
       </div>
     );
   }
