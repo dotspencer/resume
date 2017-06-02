@@ -4,7 +4,7 @@ class Course extends React.Component {
   render(){
     return (
       <div className="course">
-        <p>{this.props.title}</p>
+        <p>{this.props.id} - {this.props.title}</p>
         <div className="tags">
           {this.props.tags.map((t)=>(
             <div className="tag" key={t}>{t}</div>
@@ -25,7 +25,7 @@ class Header extends React.Component {
       <div>
         <h3>Courses</h3>
         {this.courses.map((c)=>(
-          <Course key={c.id} title={c.title} tags={c.tags} />
+          <Course key={c.id} id={c.id} title={c.title} tags={c.tags} />
         ))}
       </div>
     );

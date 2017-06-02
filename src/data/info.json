@@ -28,12 +28,12 @@
     {
       "id": "CS 3810",
       "title": "Computer Organization",
-      "tags": []
+      "tags": ["MIPS"]
     },
     {
       "id": "CS 5530",
       "title": "Database Systems",
-      "tags": ["MySQL", "Java", "JSP"]
+      "tags": ["SQL", "MySQL", "Java", "JSP"]
     }
   ],
   "experience": [
