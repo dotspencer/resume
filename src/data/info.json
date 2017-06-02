@@ -1,0 +1,38 @@
+{
+  "general": {
+    "name": "Spencer Smith",
+    "address": "Salt Lake City, Utah"
+  },
+  "courses": [
+    {
+      "id": "CS 1410",
+      "title": "Object-Oriented Programming",
+      "tags": ["Java"]
+    },
+    {
+      "id": "CS 2420",
+      "title": "Intro Algorithms &amp; Data Structures",
+      "tags": ["Java"]
+    },
+    {
+      "id": "CS 3500",
+      "title": "Software Practice I",
+      "tags": ["C#"]
+    },
+    {
+      "id": "CS 3505",
+      "title": "Software Practice II",
+      "tags": ["C++", "C#"]
+    },
+    {
+      "id": "CS 3810",
+      "title": "Computer Organization",
+      "tags": [""]
+    },
+    {
+      "id": "CS 5530",
+      "title": "Database Systems",
+      "tags": ["MySQL", "Java", "JSP"]
+    }
+  ]
+}
